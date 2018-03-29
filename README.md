@@ -1,6 +1,6 @@
 # Warai Otoko
 
-This is a personal blog created by [Pelican] [1].
+This is a personal blog created by [Pelican](http://docs.getpelican.com/en/stable/).
 
 ## File metadata template
 
@@ -14,5 +14,3 @@ Slug: my-super-post
 
 This is the content of my super blog post.
 ```
-
-[1]: http://docs.getpelican.com/en/stable/
