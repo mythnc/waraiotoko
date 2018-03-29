@@ -20,6 +20,14 @@ DATE_FORMATS = {
 STATIC_PATHS = ['extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
+# URL
+ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = ARTICLE_URL + 'index.html'
+#PAGE_URL = 'pages/{slug}/'
+#PAGE_SAVE_AS = PAGE_URL + 'index.html'
+#ARCHIVES_SAVE_AS = 'archives/index.html'
+
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
